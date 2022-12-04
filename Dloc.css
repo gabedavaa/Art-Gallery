@@ -1,0 +1,387 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "outfit", sans-serif;
+}
+
+.container {
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+    /* height: 100vh; */
+}
+
+.map-container {
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 600px;
+    background-image: url(./art-gallery-website/art-gallery-website/starter-code/assets/desktop/image-map@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn-location {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    border: none;
+    width: 264px;
+    height: 72px;
+    background: linear-gradient(to right, #D5966c 20%, black 20% 100%);
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    /* padding: 0 32px 0 35px; */
+    transition: linear-gradient 2s;
+    cursor: pointer;
+    margin-left: 156px;
+}
+
+.btn-location:hover {
+    background: linear-gradient(to right, black 20%, #D5966c 20% 100%)
+}
+
+.btn-location-link {
+    text-decoration: none;
+    color: white;
+}
+
+
+.background-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 72px;
+    background: #D5966C;
+    margin-right: 1px;
+}
+
+/* .map-container {
+    display: flex;
+    margin-left: 156px;
+} */
+
+.location-address-container-background {
+    background-color: #151515;
+    height: 548px;
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.location-address-container {
+    display: flex;
+    width: 1110px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 316px;
+    padding-top: 104px;
+    justify-content: space-between;
+}
+
+.location {
+    width: 350px;
+    height: 140px;
+    background-image: url(./OUR\ LOCATION.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.address {
+    display: flex;
+    width: 540px;
+    height: 316px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.king-street {
+    width: 350px;
+    height: 36px;
+    background-image: url(./99\ King\ Street.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.newport {
+    width: 445px;
+    height: 96px;
+    background-image: url(./Newport\ RI\ 02840\ Uni.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.address-paragraph {
+    width: 540px;
+    height: 128px;
+    background-image: url(./Our\ newly\ opened\ gal.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer-container {
+    background-color: #D5966C;
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 244px;
+    padding-top: 80px;
+}
+
+.footer-second-container {
+    width: 1110px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 84px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.modern-art-gallery {
+    background-image: url(./MODERNARTGALLERY\ \(1\).svg);
+    width: 160px;
+    height: 58px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* .footer-paragraph-container {
+    width: 430px;
+} */
+
+
+.footer-paragraph {
+    font-weight: 300;
+    width: 430px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #151515;
+
+}
+
+.social-media {
+    width: 100px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fa-brands {
+    font-size: 20px;
+    color: #151515;
+    cursor: pointer;
+}
+
+.fa-brands:hover {
+    position: relative;
+    color: white;
+}
+
+
+
+
+
+
+/* tablet */
+@media only screen and (max-width: 768px) {
+
+    section {
+        max-width: 768px;
+    }
+
+    .container {
+        width: 768px;
+        /* max-width: 100%;
+        margin: 0 auto; */
+    }
+
+    .map-container {
+        width: 768px;
+        max-width: 100%;
+        margin: 0 auto;
+        height: 600px;
+        background-image: url(./art-gallery-website/art-gallery-website/starter-code/assets/tablet/image-map@2x.png);
+    }
+
+
+    .btn-location {
+        margin-left: 39px;
+    }
+
+
+    .location-address-container-background {
+        height: 436px;
+        width: 768px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .location-address-container {
+        width: 689px;
+        height: 268px;
+        padding-top: 88px;
+    }
+
+    .location {
+        width: 223px;
+        height: 100px;
+        background-image: url(./Tablet/OUR\ LOCATION.svg);
+    }
+
+    .address {
+        display: flex;
+        width: 398px;
+        height: 268px;
+    }
+
+    .king-street {
+        width: 350px;
+        height: 32px;
+        background-image: url(./99\ King\ Street.svg);
+    }
+
+    .newport {
+        width: 398px;
+        height: 84px;
+    }
+
+    .address-paragraph {
+        width: 398px;
+        height: 112px;
+    }
+
+    .footer-container {
+        width: 768px;
+        margin: 0 auto;
+        height: 216px;
+        padding-top: 56px;
+    }
+
+    .footer-second-container {
+        width: 689px;
+        height: 104px;
+    }
+
+    .modern-art-gallery {
+        background-image: url(./Tablet/MODERNARTGALLERY.svg);
+        width: 110px;
+        height: 40px;
+    }
+
+    /* .footer-paragraph-container {
+        width: 104px;
+    } */
+
+    .footer-paragraph {
+        font-weight: 300;
+        width: 281px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+
+
+/* mobile */
+@media only screen and (max-width: 540px) {
+
+    section {
+        min-width: 375px;
+    }
+
+    .container {
+        width: 375px;
+    }
+
+    .map-container {
+        width: 375px;
+        margin: 0 auto;
+        height: 550px;
+        background-image: url(./art-gallery-website/art-gallery-website/starter-code/assets/mobile/image-map@2x.png);
+    }
+
+    .btn-location {
+        margin-left: 0px;
+    }
+
+    .location-address-container-background {
+        height: 493px;
+        width: 375px;
+    }
+
+    .location-address-container {
+        display: block;
+        width: 375px;
+        height: 389px;
+        padding-top: 48px;
+    }
+
+    .location {
+        width: 343px;
+        height: 45px;
+        background-image: url(./Mobile/OUR\ LOCATION\ Copy.svg);
+        margin-left: 16px;
+    }
+
+    .address {
+        display: flex;
+        width: 375px;
+        height: 341px;
+        padding-top: 48px;
+    }
+
+    .king-street {
+        width: 343px;
+        height: 32px;
+        margin-left: 16px;
+    }
+
+    .newport {
+        width: 343px;
+        height: 84px;
+        margin-left: 16px;
+        background-image: url(./Mobile/Newport\ RI\ 02840\ Uni.svg);
+    }
+
+    .address-paragraph {
+        width: 343px;
+        height: 140px;
+        margin-left: 16px;
+        background-image: url(./Mobile/Our\ newly\ opened\ gal.svg);
+    }
+
+    .footer-container {
+        width: 375px;
+        height: 336px;
+        padding-top: 48px;
+    }
+
+    .footer-second-container {
+        width: 311px;
+        height: 240px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+
+
+
+}

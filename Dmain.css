@@ -1,0 +1,752 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "outfit", sans-serif;
+}
+
+
+.container {
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    height: 800px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.left-box {
+    position: relative;
+    width: 450px;
+    height: 800px;
+    background: #151515;
+    overflow: hidden;
+}
+
+.center-box {
+    position: relative;
+    overflow: hidden;
+    width: 540px;
+    height: 800px;
+    background-image: url('./art-gallery-website/art-gallery-website/starter-code/assets/desktop/image-hero@2x.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.location-container {
+    width: 350px;
+}
+
+.location-paragrap {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
+    margin-bottom: 64px;
+}
+
+/* button {
+    display:revert;
+    all: intial;
+} */
+
+.btn-location {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    border: none;
+    width: 264px;
+    height: 72px;
+    background: linear-gradient(to right, black 80%, #D5966c 80% 100%);
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    /* padding: 0 32px 0 35px; */
+    transition: linear-gradient 2s;
+    cursor: pointer;
+}
+
+.btn-location:hover {
+    background: linear-gradient(to right, #D5966c 80%, black 80% 100%)
+}
+
+.btn-location-link {
+    text-decoration: none;
+    color: white;
+}
+
+
+.background-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 72px;
+    background: #D5966C;
+    margin-right: 1px;
+}
+
+/* .btn-arrow {
+    display: flex;
+} */
+
+.right-box {
+    width: 450px;
+    max-width: 100%;
+    position: relative;
+
+}
+
+.location-container {
+    position: absolute;
+    top: 190px;
+    left: -64px;
+}
+
+.logo-light {
+    width: 514px;
+    height: 176px;
+    position: absolute;
+    top: 190px;
+    right: -192px;
+}
+
+.img-logo-light {
+    width: 100%;
+    height: 100%;
+}
+
+.logo-dark {
+    width: 514px;
+    height: 176px;
+    position: absolute;
+    left: -324px;
+    top: 190px;
+}
+
+.img-logo-dark {
+    width: 100%;
+    height: 100%;
+}
+
+.logo-dark-tablet {
+    display: none;
+}
+
+.logo-dark-mobile {
+    display: none;
+}
+
+
+
+
+
+
+/* second section */
+
+
+.scnd-sec-container {
+    padding-top: 180px;
+    width: 1110px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    height: 1330px;
+
+}
+
+.sec-container {
+    /* padding-top: 180px; */
+    width: 1110px;
+    max-width: 100%;
+    margin: 0 auto;
+    /* height: 100vh; */
+}
+
+
+.scnd-sec-first-container {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: space-between;
+}
+
+
+.image-grid-12 {
+    position: relative;
+    width: 635px;
+    height: 400px;
+    background-image: url('./art-gallery-website/art-gallery-website/starter-code/assets/desktop/image-grid-1@2x.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.day-discription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.your-day-tablet-photo {
+    display: none;
+}
+
+.your-day-mobile-photo {
+    display: none;
+}
+
+.gallery-discription {
+    width: 350px;
+}
+
+.gallery-discription-paragraph {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 32px;
+}
+
+.scnd-sec-second-container {
+    padding-top: 30px;
+    width: 1110px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    height: 720px;
+    justify-content: space-between;
+}
+
+
+.sssc-first-photo {
+    position: relative;
+    width: 635px;
+    height: 720px;
+    background-image: url('./art-gallery-website/art-gallery-website/starter-code/assets/desktop/image-grid-2@2x.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photo-come-and-be-inspired {
+    width: 445px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 720px;
+    justify-content: space-between;
+}
+
+.photo {
+    position: relative;
+    width: 445px;
+    height: 313px;
+    background-image: url('./art-gallery-website/art-gallery-website/starter-code/assets/desktop/image-grid-3@2x.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.come-and-be-inspired {
+    width: 445px;
+    max-width: 100%;
+    display: flex;
+    height: 377px;
+    background-color: #151515;
+}
+
+
+.come-and-be-inspired-and-paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.come-and-be-inspired-h1 {
+    background-image: url(./COME\ &\ BE\ INSPIRED.svg);
+    width: 350px;
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 48px;
+}
+
+.come-and-be-inspired-and-paragraph-p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: white;
+    width: 350px;
+    height: 96px;
+    margin-left: 48px;
+}
+
+.footer {
+    padding-top: 180px;
+}
+
+.footer-container {
+    background-color: #151515;
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 244px;
+    padding-top: 80px;
+}
+
+.footer-second-container {
+    width: 1110px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 84px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.modern-art-gallery {
+    background-image: url(./MODERNARTGALLERY.svg);
+    width: 160px;
+    height: 58px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer-paragraph-container {
+    width: 430px;
+}
+
+
+.footer-paragraph {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+
+}
+
+.social-media {
+    width: 100px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fa-brands {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.fa-brands:hover {
+    position: relative;
+    color: #D5966C;
+}
+
+
+/* tablet */
+@media only screen and (max-width: 768px) {
+
+    section {
+        max-width: 768px;
+    }
+
+    .container {
+        width: 768px;
+        height: 700px;
+    }
+
+    .left-box {
+        display: none;
+    }
+
+    .center-box {
+        width: 437px;
+        height: 700px;
+        background-image: url('./art-gallery-website/art-gallery-website/starter-code/assets/tablet/image-hero@2x.jpg');
+    }
+
+    .right-box {
+        width: 331px;
+    }
+
+    .logo-light {
+        display: none;
+    }
+
+    .logo-dark {
+        display: none;
+    }
+
+    .logo-dark-tablet {
+        display: flex;
+        width: 339px;
+        height: 130px;
+        position: absolute;
+        right: 40px;
+        top: 145px;
+    }
+
+    .location-container {
+        top: 323px;
+        left: -48px;
+        width: 339px;
+    }
+
+    .location-paragrap {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 64px;
+    }
+
+    .btn-location {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        justify-content: space-evenly;
+        border: none;
+        width: 264px;
+        height: 72px;
+        background: linear-gradient(to right, black 80%, #D5966c 80% 100%);
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        /* padding: 0 32px 0 35px; */
+        transition: linear-gradient 2s;
+        cursor: pointer;
+    }
+
+    .scnd-sec-container {
+        margin-top: 120px !important;
+        width: 689px;
+        max-width: 100%;
+        margin: 0 auto;
+        height: 1131px;
+        padding-top: 0px;
+    }
+
+    .scnd-sec-second-container {
+        padding-top: 11px;
+        width: 689px;
+        height: 731px;
+    }
+
+    .your-day-main {
+        display: none;
+    }
+
+    .your-day-tablet-photo {
+        display: flex;
+        width: 223px;
+        height: 135px;
+        position: relative;
+        left: -20px;
+    }
+
+    .your-day-mobile-photo {
+        display: none;
+    }
+
+    .gallery-discription-paragraph {
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 24px;
+    }
+
+    .gallery-discription {
+        width: 223px;
+        height: 140px;
+    }
+
+    .image-grid-12 {
+        width: 398px;
+        height: 400px;
+        background-image: url('./Tablet/Rectangle\ Copy\ 5.svg');
+    }
+
+    .sssc-first-photo {
+        width: 398px;
+        height: 720px;
+        background-image: url(./art-gallery-website/art-gallery-website/starter-code/assets/tablet/image-grid-2@2x.jpg);
+    }
+
+    .photo {
+        width: 280px;
+        height: 313px;
+        background-image: url(./art-gallery-website/art-gallery-website/starter-code/assets/tablet/image-grid-3@2x.jpg);
+    }
+
+    .come-and-be-inspired {
+        width: 280px;
+        height: 396px;
+    }
+
+    .photo-come-and-be-inspired {
+        width: 280px;
+    }
+
+    .come-and-be-inspired-h1 {
+        background-image: url(./Tablet/COME\ &\ BE\ INSPIRED.svg);
+        width: 223px;
+        height: 90px;
+        margin-left: 29px;
+    }
+
+    .come-and-be-inspired-and-paragraph-p {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        width: 223px;
+        height: 112px;
+        margin-left: 29px;
+    }
+
+    .footer {
+        padding-top: 120px;
+    }
+
+    .footer-container {
+        width: 768px;
+        height: 216px;
+        padding-top: 56px;
+    }
+
+    .footer-second-container {
+        width: 689px;
+        height: 104px;
+    }
+
+    .modern-art-gallery {
+        width: 110px;
+        height: 40px;
+    }
+
+    .footer-paragraph-container {
+        width: 281px;
+        height: 104px;
+    }
+
+
+    .footer-paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+}
+
+
+
+/* mobile */
+@media only screen and (max-width: 540px) {
+
+    /* first section */
+
+    section {
+        min-width: 375px;
+    }
+
+    .container {
+        width: 375px;
+        height: 630px;
+    }
+
+    .center-box {
+        width: 375px;
+        height: 240px;
+        background-image: url('./art-gallery-website/art-gallery-website/starter-code/assets/mobile/image-hero@2x.jpg');
+    }
+
+    .display-flex {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .logo-dark-tablet {
+        display: none;
+    }
+
+    .logo-dark-mobile {
+        display: flex;
+        width: 343px;
+        height: 110px;
+    }
+
+    .location-container {
+        position: unset;
+    }
+
+    .location-container {
+        width: 343px;
+        height: 390px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 16px;
+        padding-top: 32px;
+    }
+
+    .location-paragrap {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 0px;
+    }
+
+    .right-box {
+        width: 343px;
+        position: unset;
+    }
+
+
+
+
+
+    /* second section */
+
+    .scnd-sec-container {
+        /* margin-top: 120px !important; */
+        width: 375px;
+        height: 1573px;
+    }
+
+    .sec-container {
+        /* padding-top: 180px; */
+        width: 375px;
+        max-width: 100%;
+        margin: 0 auto;
+        /* height: 100vh; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .scnd-sec-first-container {
+        margin-left: 16px;
+        display: flex;
+        width: 343px;
+        max-width: 100%;
+        height: 568px;
+        /* justify-content: space-between; */
+        flex-direction: column-reverse;
+    }
+
+    .image-grid-12 {
+        width: 343px;
+        height: 320px;
+        background-image: url(./art-gallery-website/art-gallery-website/starter-code/assets/mobile/image-grid-1@2x.jpg);
+    }
+
+    .your-day-tablet-photo {
+        display: none;
+    }
+
+    .your-day-mobile-photo {
+        display: flex;
+        /* width: 343px; */
+        height: 90px;
+        position: unset;
+    }
+
+    .gallery-discription {
+        width: 223px;
+        height: 112px;
+    }
+
+    .gallery-discription-paragraph {
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 0;
+        height: 112px;
+        width: 343px;
+    }
+
+    .day-discription {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 223px;
+    }
+
+
+    .scnd-sec-second-container {
+        margin: 0px;
+        padding: 0px;
+        margin-left: 16px;
+        width: 343px;
+        max-width: 100%;
+        display: flex;
+        height: 1005px;
+        flex-direction: column;
+        justify-content: unset;
+    }
+
+    .sssc-first-photo {
+        position: unset;
+        width: 343px;
+        min-height: 480px;
+        height: 480px;
+        background-image: url(./art-gallery-website/art-gallery-website/starter-code/assets/mobile/image-grid-2@2x.jpg);
+    }
+
+    .photo {
+        margin-top: 16px;
+        width: 343px;
+        height: 200px;
+        background-image: url(./art-gallery-website/art-gallery-website/starter-code/assets/mobile/image-grid-3@2x.jpg);
+    }
+
+    .come-and-be-inspired {
+        width: 343px;
+        height: 293px;
+        max-width: 100vh;
+    }
+
+    .come-and-be-inspired-h1 {
+        /* background-image: url(./Tablet/COME\ &\ BE\ INSPIRED.svg); */
+        width: 295px;
+        height: 90px;
+        margin-left: 24px;
+    }
+
+    .come-and-be-inspired-and-paragraph-p {
+        width: 295px;
+        height: 84px;
+        margin-left: 24px;
+    }
+
+    .footer {
+        padding-top: 120px;
+    }
+
+    .footer-container {
+        width: 375px;
+        height: 336px;
+        padding-top: 56px;
+    }
+
+    .footer-second-container {
+        width: 311px;
+        height: 240px;
+        flex-direction: column;
+    }
+
+}
